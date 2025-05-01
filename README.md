@@ -15,6 +15,8 @@ pip3 install torchquantum
 git clone https://gitlab.com/QMAI/mlqe_2023_edx.git
 ```
 
+### 1. Our experimental simulations
+
 ##### Training the Tensor-Train Network to generate VQC's parameters
 ```
 python TT2VQC_Exp.py --num_qubits=12 --depth_vqc=6 --lr=0.002
